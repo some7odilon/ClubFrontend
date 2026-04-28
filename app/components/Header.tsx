@@ -9,7 +9,7 @@ const roleIcons = {
     membre:User,
     tresorier:Wallet,
     president:Crown
-},
+}
 
 const roleColors = {
     membre:"badge-primary",
@@ -29,9 +29,9 @@ const Header = () => {
      return (
     <div className="navbar bg-base-100 shadow-md px-4">
       <div className="flex-1">
-        <a className="btn btn-ghost text-xl" href="/">
+        <Link className="btn btn-ghost text-xl" href="/">
         Club Management
-        </a>
+        </Link>
       </div>
       
       <div className="flex-none gap-2">
